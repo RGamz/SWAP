@@ -1,0 +1,70 @@
+
+.body {
+    position: relative;
+}
+
+.header-logo {
+    display: block;
+    position: absolute;
+    background-color: white;
+    padding: 20px;
+    left: 40px;
+}
+
+
+.header-nav {
+    background-color: #00aaa4;
+    border-bottom: 0;
+    padding: 5px 0;
+    height: 38px;
+}
+
+.header-top {
+    background-color: #35506e;
+    padding: 7px 0;
+    // height: 36px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.menu__list {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu__link {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    margin-right: 16px;
+}
+
+.phone-number {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    margin-right: 16px;
+}
+
+.submenu__list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.submenu__item {
+    margin-right: 20px;
+}
+
+.submenu__link {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    margin-right: 16px;
+}
