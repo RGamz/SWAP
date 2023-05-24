@@ -132,3 +132,10 @@ a {
   -webkit-filter: drop-shadow(0 0 10px gray);
           filter: drop-shadow(0 0 10px gray);
 }
+
+.enlarge {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  background-color: grey --overlay;
+  background-size: cover;
+}
