@@ -28,6 +28,10 @@ a {
      object-fit: contain;
 }
 
+.invisible {
+  display: none;
+}
+
 .body {
   position: relative;
 }
@@ -119,6 +123,11 @@ a {
   margin-right: 16px;
 }
 
+.nav_active {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 2px;
+}
+
 .step__item {
   margin: 20px 0;
 }
@@ -134,8 +143,8 @@ a {
 }
 
 .enlarge {
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
   background-color: grey --overlay;
   background-size: cover;
 }
