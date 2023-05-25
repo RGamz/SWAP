@@ -10,7 +10,7 @@
 
 </head>
 <body>
-    <header class="header">
+    <header class="header" id="header">
         <div class="header-logo">
             <img src="./img/swap-europe-logo-1591342832.jpg" alt="logo" class="logo">
         </div>
@@ -27,6 +27,8 @@
                 <span class="phone-number__text">8 800 222-06-51</span>
             </a>
         </div>
+
+        <!-- the not-to-delete code is in class "header-nav"-->
         <div class="header-nav">
             <ul class="submenu__list">
                 <li class="submenu__item">
@@ -36,7 +38,7 @@
                     <a href="" class="submenu__link">Как сделать заказ</a>
                 </li>
                 <li class="submenu__item">
-                    <a href="" class="submenu__link">Способы оплаты </a>
+                    <a href="" class="submenu__link">Способы оплаты</a>
                 </li>
                 <li class="submenu__item">
                     <a href="" class="submenu__link">Доставка и самовывоз</a>
@@ -46,178 +48,189 @@
                 </li>          
             </ul>
         </div>
+
     </header>
 
-    <section class="section registration active">
-        <div class="container">
-            <div class="wrapper">
-                <ul class="step__list">
-                    <li class="step__item">
-                        <h2 class="step__item-header">1. Войти или зарегистрироваться</h2>
-                    
-                        <p>Оформить заказ можно только в личном кабинете. Войдите или зарегистрируйтесь по номеру телефона:</p>
-                        <img src="//images.wildberries.ru/interface/promo_kak_sdelat_zakaz/v1/ru/1.jpg" class="descr__img enlargable">
-                    </li>
-                    <li class="step__item">
-                        <h2 class="step__item-header">2. Lorem, ipsum dolor.</h2>
-                    
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit eveniet maiores architecto fugiat saepe?</p>
-                        <img src="./img/Screenshot from 2023-05-12 11-53-15.png" class="descr__img enlargable">
-                    </li>
-                    <li class="step__item">
-                        <h2 class="step__item-header">3. Lorem ipsum dolor sit amet.</h2>
-                    
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt nesciunt dolor quaerat quos delectus animi reprehenderit ullam quas, maxime earum.</p>
-                        <img src="./img/3.png" class="descr__img">
-                    </li>
-                    <li class="step__item">
-                        <h2 class="step__item-header">4. Lorem ipsum dolor sit.</h2>
-                    
-                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea excepturi fuga accusamus rerum!</p>
-                        <img src="//images.wildberries.ru/interface/promo_kak_sdelat_zakaz/v1/ru/1.jpg" class="descr__img">
-                    </li>
-                </ul>
+    <div class="body_container">
+        <section class="section registration">
+            <div class="container">
+                <div class="wrapper">
+                    <ul class="step__list">
+                        <li class="step__item">
+                            <h2 class="step__item-header">1. Войти или зарегистрироваться</h2>
+                        
+                            <p>Оформить заказ можно только в личном кабинете. Войдите или зарегистрируйтесь по номеру телефона:</p>
+                            <img src="//images.wildberries.ru/interface/promo_kak_sdelat_zakaz/v1/ru/1.jpg" class="descr__img enlargable">
+                        </li>
+                        <li class="step__item">
+                            <h2 class="step__item-header">2. Lorem, ipsum dolor.</h2>
+                        
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit eveniet maiores architecto fugiat saepe?</p>
+                            <img src="./img/Screenshot from 2023-05-12 11-53-15.png" class="descr__img enlargable">
+                        </li>
+                        <li class="step__item">
+                            <h2 class="step__item-header">3. Lorem ipsum dolor sit amet.</h2>
+                        
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt nesciunt dolor quaerat quos delectus animi reprehenderit ullam quas, maxime earum.</p>
+                            <img src="./img/3.png" class="descr__img">
+                        </li>
+                        <li class="step__item">
+                            <h2 class="step__item-header">4. Lorem ipsum dolor sit.</h2>
+                        
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea excepturi fuga accusamus rerum!</p>
+                            <img src="//images.wildberries.ru/interface/promo_kak_sdelat_zakaz/v1/ru/1.jpg" class="descr__img">
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+    
+        <section class="section order invisible">
+            <div class="container">
+                <div class="wrapper">
+                    <ul class="step__list">
+                        <li class="step__item">
+                            <h2 class="step__item-header">1. ORDER</h2>
+                        
+                            <p>Оформить заказ можно только в личном кабинете. Войдите или зарегистрируйтесь по номеру телефона:</p>
+                            <img src="//images.wildberries.ru/interface/promo_kak_sdelat_zakaz/v1/ru/1.jpg" class="descr__img enlargable">
+                        </li>
+                        <li class="step__item">
+                            <h2 class="step__item-header">2. Lorem, ipsum dolor.</h2>
+                        
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit eveniet maiores architecto fugiat saepe?</p>
+                            <img src="./img/Screenshot from 2023-05-12 11-53-15.png" class="descr__img enlargable">
+                        </li>
+                        <li class="step__item">
+                            <h2 class="step__item-header">3. Lorem ipsum dolor sit amet.</h2>
+                        
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt nesciunt dolor quaerat quos delectus animi reprehenderit ullam quas, maxime earum.</p>
+                            <img src="./img/3.png" class="descr__img">
+                        </li>
+                        <li class="step__item">
+                            <h2 class="step__item-header">4. Lorem ipsum dolor sit.</h2>
+                        
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea excepturi fuga accusamus rerum!</p>
+                            <img src="//images.wildberries.ru/interface/promo_kak_sdelat_zakaz/v1/ru/1.jpg" class="descr__img">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    
+        <section class="section payment invisible">
+            <div class="container">
+                <div class="wrapper">
+                    <ul class="step__list">
+                        <li class="step__item">
+                            <h2 class="step__item-header">1. PAYMENT</h2>
+                        
+                            <p>Оформить заказ можно только в личном кабинете. Войдите или зарегистрируйтесь по номеру телефона:</p>
+                            <img src="//images.wildberries.ru/interface/promo_kak_sdelat_zakaz/v1/ru/1.jpg" class="descr__img enlargable">
+                        </li>
+                        <li class="step__item">
+                            <h2 class="step__item-header">2. Lorem, ipsum dolor.</h2>
+                        
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit eveniet maiores architecto fugiat saepe?</p>
+                            <img src="./img/Screenshot from 2023-05-12 11-53-15.png" class="descr__img enlargable">
+                        </li>
+                        <li class="step__item">
+                            <h2 class="step__item-header">3. Lorem ipsum dolor sit amet.</h2>
+                        
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt nesciunt dolor quaerat quos delectus animi reprehenderit ullam quas, maxime earum.</p>
+                            <img src="./img/3.png" class="descr__img">
+                        </li>
+                        <li class="step__item">
+                            <h2 class="step__item-header">4. Lorem ipsum dolor sit.</h2>
+                        
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea excepturi fuga accusamus rerum!</p>
+                            <img src="//images.wildberries.ru/interface/promo_kak_sdelat_zakaz/v1/ru/1.jpg" class="descr__img">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    
+        <section class="section delivery invisible">
+            <div class="container">
+                <div class="wrapper">
+                    <ul class="step__list">
+                        <li class="step__item">
+                            <h2 class="step__item-header">1. DELIVERY</h2>
+                        
+                            <p>Оформить заказ можно только в личном кабинете. Войдите или зарегистрируйтесь по номеру телефона:</p>
+                            <img src="//images.wildberries.ru/interface/promo_kak_sdelat_zakaz/v1/ru/1.jpg" class="descr__img enlargable">
+                        </li>
+                        <li class="step__item">
+                            <h2 class="step__item-header">2. Lorem, ipsum dolor.</h2>
+                        
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit eveniet maiores architecto fugiat saepe?</p>
+                            <img src="./img/Screenshot from 2023-05-12 11-53-15.png" class="descr__img enlargable">
+                        </li>
+                        <li class="step__item">
+                            <h2 class="step__item-header">3. Lorem ipsum dolor sit amet.</h2>
+                        
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt nesciunt dolor quaerat quos delectus animi reprehenderit ullam quas, maxime earum.</p>
+                            <img src="./img/3.png" class="descr__img">
+                        </li>
+                        <li class="step__item">
+                            <h2 class="step__item-header">4. Lorem ipsum dolor sit.</h2>
+                        
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea excepturi fuga accusamus rerum!</p>
+                            <img src="//images.wildberries.ru/interface/promo_kak_sdelat_zakaz/v1/ru/1.jpg" class="descr__img">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    
+        <section class="section warranty invisible">
+            <div class="container">
+                <div class="wrapper">
+                    <ul class="step__list">
+                        <li class="step__item">
+                            <h2 class="step__item-header">1. WARRANTY</h2>
+                        
+                            <p>Оформить заказ можно только в личном кабинете. Войдите или зарегистрируйтесь по номеру телефона:</p>
+                            <img src="//images.wildberries.ru/interface/promo_kak_sdelat_zakaz/v1/ru/1.jpg" class="descr__img enlargable">
+                        </li>
+                        <li class="step__item">
+                            <h2 class="step__item-header">2. Lorem, ipsum dolor.</h2>
+                        
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit eveniet maiores architecto fugiat saepe?</p>
+                            <img src="./img/Screenshot from 2023-05-12 11-53-15.png" class="descr__img enlargable">
+                        </li>
+                        <li class="step__item">
+                            <h2 class="step__item-header">3. Lorem ipsum dolor sit amet.</h2>
+                        
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt nesciunt dolor quaerat quos delectus animi reprehenderit ullam quas, maxime earum.</p>
+                            <img src="./img/3.png" class="descr__img">
+                        </li>
+                        <li class="step__item">
+                            <h2 class="step__item-header">4. Lorem ipsum dolor sit.</h2>
+                        
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea excepturi fuga accusamus rerum!</p>
+                            <img src="//images.wildberries.ru/interface/promo_kak_sdelat_zakaz/v1/ru/1.jpg" class="descr__img">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
 
-    <section class="section order invisible">
-        <div class="container">
-            <div class="wrapper">
-                <ul class="step__list">
-                    <li class="step__item">
-                        <h2 class="step__item-header">1. ORDER</h2>
-                    
-                        <p>Оформить заказ можно только в личном кабинете. Войдите или зарегистрируйтесь по номеру телефона:</p>
-                        <img src="//images.wildberries.ru/interface/promo_kak_sdelat_zakaz/v1/ru/1.jpg" class="descr__img enlargable">
-                    </li>
-                    <li class="step__item">
-                        <h2 class="step__item-header">2. Lorem, ipsum dolor.</h2>
-                    
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit eveniet maiores architecto fugiat saepe?</p>
-                        <img src="./img/Screenshot from 2023-05-12 11-53-15.png" class="descr__img enlargable">
-                    </li>
-                    <li class="step__item">
-                        <h2 class="step__item-header">3. Lorem ipsum dolor sit amet.</h2>
-                    
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt nesciunt dolor quaerat quos delectus animi reprehenderit ullam quas, maxime earum.</p>
-                        <img src="./img/3.png" class="descr__img">
-                    </li>
-                    <li class="step__item">
-                        <h2 class="step__item-header">4. Lorem ipsum dolor sit.</h2>
-                    
-                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea excepturi fuga accusamus rerum!</p>
-                        <img src="//images.wildberries.ru/interface/promo_kak_sdelat_zakaz/v1/ru/1.jpg" class="descr__img">
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <section class="section payment invisible">
-        <div class="container">
-            <div class="wrapper">
-                <ul class="step__list">
-                    <li class="step__item">
-                        <h2 class="step__item-header">1. PAYMENT</h2>
-                    
-                        <p>Оформить заказ можно только в личном кабинете. Войдите или зарегистрируйтесь по номеру телефона:</p>
-                        <img src="//images.wildberries.ru/interface/promo_kak_sdelat_zakaz/v1/ru/1.jpg" class="descr__img enlargable">
-                    </li>
-                    <li class="step__item">
-                        <h2 class="step__item-header">2. Lorem, ipsum dolor.</h2>
-                    
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit eveniet maiores architecto fugiat saepe?</p>
-                        <img src="./img/Screenshot from 2023-05-12 11-53-15.png" class="descr__img enlargable">
-                    </li>
-                    <li class="step__item">
-                        <h2 class="step__item-header">3. Lorem ipsum dolor sit amet.</h2>
-                    
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt nesciunt dolor quaerat quos delectus animi reprehenderit ullam quas, maxime earum.</p>
-                        <img src="./img/3.png" class="descr__img">
-                    </li>
-                    <li class="step__item">
-                        <h2 class="step__item-header">4. Lorem ipsum dolor sit.</h2>
-                    
-                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea excepturi fuga accusamus rerum!</p>
-                        <img src="//images.wildberries.ru/interface/promo_kak_sdelat_zakaz/v1/ru/1.jpg" class="descr__img">
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <section class="section delivery invisible">
-        <div class="container">
-            <div class="wrapper">
-                <ul class="step__list">
-                    <li class="step__item">
-                        <h2 class="step__item-header">1. DELIVERY</h2>
-                    
-                        <p>Оформить заказ можно только в личном кабинете. Войдите или зарегистрируйтесь по номеру телефона:</p>
-                        <img src="//images.wildberries.ru/interface/promo_kak_sdelat_zakaz/v1/ru/1.jpg" class="descr__img enlargable">
-                    </li>
-                    <li class="step__item">
-                        <h2 class="step__item-header">2. Lorem, ipsum dolor.</h2>
-                    
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit eveniet maiores architecto fugiat saepe?</p>
-                        <img src="./img/Screenshot from 2023-05-12 11-53-15.png" class="descr__img enlargable">
-                    </li>
-                    <li class="step__item">
-                        <h2 class="step__item-header">3. Lorem ipsum dolor sit amet.</h2>
-                    
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt nesciunt dolor quaerat quos delectus animi reprehenderit ullam quas, maxime earum.</p>
-                        <img src="./img/3.png" class="descr__img">
-                    </li>
-                    <li class="step__item">
-                        <h2 class="step__item-header">4. Lorem ipsum dolor sit.</h2>
-                    
-                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea excepturi fuga accusamus rerum!</p>
-                        <img src="//images.wildberries.ru/interface/promo_kak_sdelat_zakaz/v1/ru/1.jpg" class="descr__img">
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <section class="section warranty invisible">
-        <div class="container">
-            <div class="wrapper">
-                <ul class="step__list">
-                    <li class="step__item">
-                        <h2 class="step__item-header">1. WARRANTY</h2>
-                    
-                        <p>Оформить заказ можно только в личном кабинете. Войдите или зарегистрируйтесь по номеру телефона:</p>
-                        <img src="//images.wildberries.ru/interface/promo_kak_sdelat_zakaz/v1/ru/1.jpg" class="descr__img enlargable">
-                    </li>
-                    <li class="step__item">
-                        <h2 class="step__item-header">2. Lorem, ipsum dolor.</h2>
-                    
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit eveniet maiores architecto fugiat saepe?</p>
-                        <img src="./img/Screenshot from 2023-05-12 11-53-15.png" class="descr__img enlargable">
-                    </li>
-                    <li class="step__item">
-                        <h2 class="step__item-header">3. Lorem ipsum dolor sit amet.</h2>
-                    
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt nesciunt dolor quaerat quos delectus animi reprehenderit ullam quas, maxime earum.</p>
-                        <img src="./img/3.png" class="descr__img">
-                    </li>
-                    <li class="step__item">
-                        <h2 class="step__item-header">4. Lorem ipsum dolor sit.</h2>
-                    
-                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea excepturi fuga accusamus rerum!</p>
-                        <img src="//images.wildberries.ru/interface/promo_kak_sdelat_zakaz/v1/ru/1.jpg" class="descr__img">
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
+    </div>
         
     <footer id="footer">
+        
+        <div class="uplink">
+            <a href="#header" class="back_to_top">&uarr;</a>
+        </div>
 
+        <!-- insert real presta footer -->
+        <div class="real_footer"></div> 
     </footer>
 
     <script src="./js/enlarge_img.js"></script>
     <script src="./js/menu_navigation.js"></script>
+    <script src="./js/button.js"></script>
 </body>
 </html>

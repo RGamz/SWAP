@@ -1,9 +1,20 @@
 
 const wrapObj = document.querySelector('.submenu__list');
-wrapObj.onclick=function(e){
+
+// matching nav header with div class to show in an object
+buttonToDiv = {
+    'Регистрация': 'registration',
+    'Как сделать заказ': 'order',
+    'Способы оплаты': 'payment',
+    'Доставка и самовывоз': 'delivery',
+    'Гарантия и возврат': 'warranty'
+};
+
+wrapObj.onclick = function(e){
     e.preventDefault();
+
+    // this loop will help to make nav button underlined if clicked
     for(let i = 0;i<wrapObj.children.length;i++){
-        // wrapObj.children[i].classList.remove('nav_active');
         const submenu_item = wrapObj.children[i];
         
         for (let i = 0; i < submenu_item.children.length;i++) {
@@ -15,8 +26,21 @@ wrapObj.onclick=function(e){
 
     }
     e.target.classList.add('nav_active');
-  
-}
 
-  
+    // this loop will match previously clicked nav button with corresponding div using buttonToDiv object
+
+    const classToFind = e.target.textContent;
+    const classToToggle = buttonToDiv[classToFind];
+
+    const container = document.querySelector('.body_container');
+
+    for (let i = 0; i<container.children.length;i++) {
+        if(container.children[i].classList.contains(classToToggle)){
+            container.children[i].classList.remove('invisible')
+        } else {
+            container.children[i].classList.add('invisible')
+        }
+    }
+    
+}
 

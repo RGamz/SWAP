@@ -1,0 +1,43 @@
+// .uplink {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+//     margin: 30px 0;
+//     color: #35506e;
+//     font-family: 'Montserrat', sans-serif;
+//     font-weight: 700;
+//     font-size: 15px;
+//     margin-right: 16px;
+// }
+
+.real_footer {
+    background-color: #35506e;
+    padding: 50px;
+}
+
+
+.back_to_top {
+    position: fixed;
+    bottom: 80px;
+    right: 40px;
+    z-index: 9999;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 30px;
+    background: #0da8a3;
+    color: #444;
+    cursor: pointer;
+    border-radius: 5px;
+    display: none;
+  }
+  
+  .back_to_top:hover {
+    background: #23f7f0;
+  }
+  
+  .back_to_top-show {
+    display: block;
+  }
+  
