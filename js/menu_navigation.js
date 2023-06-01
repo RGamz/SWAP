@@ -4,6 +4,7 @@ const wrapObj = document.querySelector('.submenu__list');
 // matching nav header with div class to show in an object
 buttonToDiv = {
     'Регистрация': 'registration',
+    'Поиск запчасти': 'search',
     'Как сделать заказ': 'order',
     'Способы оплаты': 'payment',
     'Доставка и самовывоз': 'delivery',
