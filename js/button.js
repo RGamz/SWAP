@@ -1,6 +1,5 @@
 
 (function() {
-  'use strict';
 
   function trackScroll() {
     var scrolled = window.pageYOffset;
@@ -26,4 +25,3 @@
   window.addEventListener('scroll', trackScroll);
   goTopBtn.addEventListener('click', backToTop);
 })();
-/* end begin Back to Top button  */
