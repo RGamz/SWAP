@@ -8,7 +8,8 @@ buttonToDiv = {
     'Как оформить заказ': 'order',
     'Способы оплаты': 'payment',
     'Доставка и самовывоз': 'delivery',
-    'Гарантия и возврат': 'warranty'
+    'Гарантия и возврат': 'warranty',
+    'Для юрлиц':'companies',
 };
 
 wrapObj.onclick = function(e){
