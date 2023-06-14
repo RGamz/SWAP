@@ -1,11 +1,8 @@
 
 html, body {
     width: 100%;
-    font-size: $baseFontSize;
+    font-size: 16px;
 
-    @include phones {
-        font-size: $baseFontSize - 2px;
-    }
 }
 
 .section {
