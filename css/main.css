@@ -5,6 +5,10 @@
   font-size: 14px;
 }
 
+.section {
+  font-family: "Montserrat", sans-serif;
+}
+
 ul {
   list-style: none;
   -webkit-margin-after: 10px;
@@ -20,6 +24,7 @@ a {
 .wrapper {
   width: 1140px;
   margin: auto;
+  min-height: 100vh;
 }
 
 .descr__img {
