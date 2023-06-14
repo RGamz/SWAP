@@ -1,19 +1,22 @@
 
-.body {
+html, body {
     width: 100%;
-    font-size: 14px;
+    font-size: $baseFontSize;
+
+    @include phones {
+        font-size: $baseFontSize - 2px;
+    }
 }
 
 .section {
     font-family: 'Montserrat', sans-serif;
-    // font-size: 400;
 }
 
 
 ul {
     list-style: none;
-    margin-block-end: 10px;
-    margin-block-start: 10px;
+    margin-block-end: 0.625rem;
+    margin-block-start: 0.625rem;
 }
 
 a {
@@ -21,7 +24,7 @@ a {
 }
 
 .wrapper {
-    width: 1140px;
+    width: 71.25rem;
     margin: auto;
     min-height: 100vh;
 }

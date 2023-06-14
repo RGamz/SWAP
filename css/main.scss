@@ -4,8 +4,17 @@
 //font
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,400&display=swap');
 
+//variables
+$baseFontSize: 16px;
+
+//breakpoints
+
+$desktop:1100px;
+$tablet:768px;
+$phone:480px;
 
 //imports
+@import "media_requests";
 @import "layout.scss";
 @import "header.scss";
 @import "steps.scss";
